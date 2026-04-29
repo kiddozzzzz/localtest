@@ -11,5 +11,20 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+
+        System.out.println(2 + "这是质数");
+        for (int i = 3; i <= 100; i++) {
+            boolean flag = true;
+            for (int j = 2; j*j <= i; j++) {
+                if (i % j == 0) {
+//                    System.out.println(i + "这不是质数");
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) {
+                System.out.println(i + "这是质数");
+            }
+        }
     }
 }
