@@ -17,13 +17,13 @@ public class Main {
             boolean flag = true;
             for (int j = 2; j*j < i; j++) {
                 if (i % j == 0) {
-//                    System.out.println(i + "这不是质数");
+//                    System.out.println(i + "这不是质数 dev branch");
                     flag = false;
                     break;
                 }
             }
             if (flag) {
-                System.out.println(i + "是质数");
+                System.out.println(i + "是质数 in dev");
             }
         }
     }
