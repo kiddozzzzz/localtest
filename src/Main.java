@@ -12,7 +12,7 @@ public class Main {
             System.out.println("i = " + i);
         }
 
-        System.out.println(2 + "");
+        System.out.println(2 + "test for v");
 
         for (int i = 3; i <= 100; i++) {
             boolean flag = true;
