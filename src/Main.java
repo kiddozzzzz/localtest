@@ -12,7 +12,7 @@ public class Main {
             System.out.println("i = " + i);
         }
 
-        System.out.println(2 + "是质数");
+        System.out.println(2 + "");
 
         for (int i = 3; i <= 100; i++) {
             boolean flag = true;
@@ -24,7 +24,7 @@ public class Main {
                 }
             }
             if (flag) {
-                System.out.println(i + "是质数 in dev master");
+                System.out.println(i + " in dev master");
             }
         }
     }
